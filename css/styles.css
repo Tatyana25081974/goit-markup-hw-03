@@ -9,6 +9,10 @@ a {
 ul,ol {
     list-style: none;
     }
+    button {
+        cursor: pointer;
+    }
+    /*==============================header styles===================*/
 .page-header {
     background-color: #fff;
 
@@ -57,7 +61,7 @@ ul,ol {
 .contacts {
     font-style: normal;
 }
-
+/*==================================/header styles/====================*/
 
 
 .section-content {
