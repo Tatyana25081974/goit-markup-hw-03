@@ -23,8 +23,11 @@ ul,ol {
     }
     
     
-    button {
+button {
         cursor: pointer;
+    }
+img {
+        display: block;
     }
     /*==============================header styles===================*/
 .page-header {
