@@ -115,13 +115,15 @@ img {
 }
 .contacts-list {
     display: flex;
+    align-items: center;
     flex-direction: row;
-    justify-content: flex-end;
     gap: 40px;
-    padding: 24px;
+   
+   
 }
 .contacts-link {
-    
+    display: block;
+    padding: 24px 0;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -134,13 +136,11 @@ img {
 }
 .contacts {
     font-style: normal;
+    margin-left: auto;
 }
-.contacts-item {
-    margin: 40px;
-    }
 .contacts-item {
     margin: 0;
-}
+    }
 
 /*==================================/header styles/====================*/
 
