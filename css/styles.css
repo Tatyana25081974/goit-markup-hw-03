@@ -236,12 +236,20 @@ img {
 /*====================================Команда=========================================*/
 .section-team {
      background-color: #f4f4fd;
+     padding: 120px 0;
 }
 .team-item {
     background-color: #FFFFFF;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+}
+.information {
+    display: block;
+    padding: 32px 0;
+
 }
 .team-title {
-    
+    margin-bottom: 72px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -250,10 +258,17 @@ img {
     text-transform: capitalize;
     color: #2e2f42;
 }
+.team-list {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 24px;
+}
 
 
 .team-subtitle {
-    
+    text-align: center;
+    margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -264,6 +279,7 @@ img {
 
 }
 .team-text {
+    text-align: center;
     
     font-weight: 400;
     font-size: 16px;
