@@ -147,7 +147,14 @@ img {
 /*=================================Унікальний контент сторінки--========================*/
 .section-content {
     background-color: #2e2f42;
+    padding: 188px 0;
 }
+.section-content-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+   }
+
 .content-title {
     
     font-weight: 700;
@@ -156,10 +163,12 @@ img {
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
+    max-width: 496px;
+    margin-bottom: 48px;
 }
 
 .button {
-   
+   display: block;
     background: #4d5ae5;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -168,6 +177,11 @@ img {
     letter-spacing: 0.04em;
     color: #fff;
     cursor: pointer;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+    margin: auto;
 }
 .button:hover,
 .button:focus {
